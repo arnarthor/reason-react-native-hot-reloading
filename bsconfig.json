@@ -1,0 +1,22 @@
+{
+  "name": "test",
+  "version": "0.1.0",
+  "sources": [
+    "src"
+  ],
+  "reason": {
+    "react-jsx": 2
+  },
+  "package-specs": [
+    {
+      "module": "commonjs",
+      "in-source": true
+    }
+  ],
+  "bs-dependencies" : [
+    "reason-react",
+    "bs-react-native"
+  ],
+  "generate-merlin": true,
+  "bsc-flags": ["-bs-super-errors"]
+}
